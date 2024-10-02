@@ -1,3 +1,10 @@
+:root {
+  --whiteColor: #ffffff;
+  --blackColor: #000000;
+  --logoTextColor: #000b6d;
+  --primaryBlueColor: #5f6fff;
+}
+
 body {
   height: 100vh;
   font-family: "Outfit", sans-serif;

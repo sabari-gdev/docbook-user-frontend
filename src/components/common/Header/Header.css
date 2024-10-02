@@ -1,0 +1,23 @@
+.header-logo-title {
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  color: var(--primaryBlueColor) !important;
+}
+.header-nav-link {
+  font-size: 16px !important;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.header-nav-link-active {
+  font-size: 16px !important;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--primaryBlueColor);
+  text-transform: uppercase;
+}
+.header-create-account-button {
+  min-width: 200px;
+  border-radius: 40px !important;
+  background-color: var(--primaryBlueColor) !important;
+}
