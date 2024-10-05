@@ -1,11 +1,14 @@
+import { FC } from "react";
 import { MantineProvider } from "@mantine/core";
+
+import RouteContainer from "@routes/RouteContainer";
 
 import "@mantine/core/styles.css";
 
-const App = () => {
+const App: FC = () => {
   return (
     <MantineProvider>
-      <div>App</div>
+      <RouteContainer />
     </MantineProvider>
   );
 };
