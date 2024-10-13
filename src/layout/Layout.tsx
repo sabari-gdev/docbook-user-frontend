@@ -1,8 +1,10 @@
 import { FC } from "react";
+
 import { Divider, Flex } from "@mantine/core";
 import { Outlet } from "react-router-dom";
 
 import Header from "@components/common/Header/Header";
+import Footer from "@components/common/Footer/Footer";
 
 import "./Layout.css";
 
@@ -15,6 +17,8 @@ const Layout: FC = () => {
       </Flex>
 
       <Outlet />
+
+      <Footer />
     </Flex>
   );
 };

@@ -1,0 +1,9 @@
+.footer-item-container {
+  width: calc(100% - 180px);
+}
+.footer-title {
+  color: #4b5563;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
